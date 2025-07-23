@@ -2,28 +2,109 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Oswald", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-style: normal;
+ 
+}
+body{
+     background-color: #F0E4D3;
 }
 #logo{
     width: 200px;
     padding-left: 20px;
     mix-blend-mode: multiply;
 }
+#username{
+    font-weight: 500;
+    height: 70px;
+    width: 175px ;
+    text-align: center;
+    align-content: center;
+    background-color: #F0E4D3;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
 #nav{
-    height: 100px;
-    background-color: #FCA575;
+    color: #D9A299;
+    /* font-weight: 100rem; */
+    font-size:1.5rem ;
+    /* height: 100px; */
+    background-color: #FAF7F3;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 li{
-    padding: 10px;
+    font-weight: 400;
+    padding: 20px;
+     transition: 0.3s ease;
 }
 ul{
     list-style: none;
     display: flex;
+    justify-content: center;
+    width: 30vw;
+}
+
+#username:hover{
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.content{
+    display:flex;
+    justify-content: space-around;
+    color: #7A9E9F ;
+    height: 80vh ;
     align-items: center;
+    
+    
+}
+/* #mainim{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+} */
+.wash{
+    width: 25vw;
+    border-radius: 4%;
+}
+
+#caption{
+    font-size: 1.6rem;
+}
+#description{
+    width: 40vw;
+    text-align: justify;
+    font-size: 
+    1.2rem;
+    color:#8A837A;
+}
+
+#book{
+    margin-top: 35px;
+    width: 18vw;
+    padding: 10px;
+    background-color: #D9A299;
+    border: none;
+    border-radius: 10px;
+    color: #FAF7F3;
+    font-size: 1.2rem;
+    transition: 0.3s ease-in-out;
+}
+
+#book:hover{
+    cursor: pointer;
+    font-size: 1.2rem;
     width: 20vw;
+    border:solid;
+}
+.wash, li:hover{
+    cursor: pointer;
+    font-size: 1.8rem;
+
+}
+#caption, #description{
+    cursor:default;
 }
