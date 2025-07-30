@@ -6,8 +6,15 @@ const box3 = document.getElementById("box-3");
 const box4 = document.getElementById("box-4");
 
 function update(){
-    head.innerHTML="Hello, "+value.value;
-    document.getElementById("form").reset();
+    if(value.value==""){
+        return 0;
+    }
+    else{
+        head.innerHTML="Hello, "+value.value;
+         document.getElementById("form").reset();
+    }
+
+    
 }
 
 box1.addEventListener('click',()=>{
