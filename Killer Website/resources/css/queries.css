@@ -1,0 +1,123 @@
+
+/* big tablets 1200px */
+@media (max-width:1200px){
+    .hero-text-box{
+    width: 100%;
+    padding: 0 2%;
+     max-width: 90%;
+}
+ section{
+        padding: 60px 0;
+    }
+.row{padding:0 2%}
+.city-icon{width: 20px;}
+}
+
+/* small tablets to big tablets from 768 to 1023 */
+@media(max-width:1023px){
+    .intro{
+width: 80%;
+margin-left:10% ;
+    }
+    body{
+        font-size: 18px;
+    }
+    section{
+        padding: 60px 0;
+    }
+
+    .steps-box{
+        margin-top: 10px !important;
+    }
+  
+    .steps-box:last-child{margin-top: 10px !important}
+    .city-feature{font-size: 90%;}
+    .pln-box{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .section-form{width: 100%;}
+    
+}
+
+@media only screen and (max-width:860px){
+    .steps .row2{ display: inline;}
+    .main-row .nav-item {
+    display: none;
+   
+}
+
+     .phone{width: 250px;margin-left: 25%;}
+    .works-steps div{
+        height: 40px;
+        width: 40px;
+    }
+    .steps-box{
+        margin-left: 5%;
+        
+        
+    }
+    .down-btn{
+    width: 250px;
+    padding-top: 20px;}
+}
+/* small phones to small tablets from 481 to 767 */
+@media only screen and (max-width:767px){
+   .main-row .nav-item {
+    display: none;
+   
+}
+    body{
+        font-size: 15px;
+         outline: 1px solid red;
+    }
+    section{padding: 30px 0;}
+    .city-icon{width: 13px;}
+    .row2{ display: inline;}
+    .col{
+        width: 100%;
+        margin:0 0 2% 0;
+    }
+    h3{margin-bottom: 2%;}
+    .phone{width: 250px;margin-left: 25%;}
+    .works-steps div{
+        height: 40px;
+        width: 40px;
+    }
+    .steps-box{
+        margin-left: 5%;
+        
+        
+    }
+    .down-btn{
+    width: 250px;
+    padding-top: 20px;}
+
+    cite{
+        padding-bottom: 0;
+    }
+    .city-img{margin-bottom: 5%;}
+    form{
+        margin: 0;
+        width: 100%;
+    }
+}
+
+/* smallphones from 0 to 480 px */
+@media only screen and (max-width: 480px){
+
+    section{
+        padding: 25px 0;
+    }
+    .section-form{
+        width: 100%;
+       
+    }
+    form{
+        margin: 0;
+        width: 100%;
+    }
+
+}
+
+

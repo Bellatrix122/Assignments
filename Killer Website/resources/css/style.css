@@ -1,0 +1,482 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+      /* outline: 1px solid red; */
+}
+html{
+    background-color: #ffffff;
+    color: #555 ;
+    font-family: Lato,sans-serif;
+    font-weight: 300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+
+}
+html, body {
+  overflow-x: hidden; 
+  
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(img/hero-image.jpg);    
+    height: 100vh;
+    background-size: cover;
+    background-position: center ; 
+      background-attachment: fixed;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+.hero-text-box{
+    position: absolute;
+    width: 90%;
+   
+    top: 50%;
+    left: 5%;  
+}
+.btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 200px;
+    font-weight: 300;
+    border: 2px solid rgb(200, 147, 50) ;
+    transition: ease-in 0.2s;
+    
+}
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+    color: #fff;
+    background-color: rgb(200, 147, 50);
+    margin-right: 20px;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    color:rgb(200, 147, 50) ;
+}
+.btn:hover,
+.btn:active,
+input[type=submit]{
+    background-color: rgb(179, 126, 27);
+}
+.btn-ghost:hover,
+.btn-ghost:active{
+    color: white;
+    border: rgb(179, 126, 27) ;
+}
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]{
+    border: rgb(179, 126, 27) ;
+}
+.logo{
+
+   height: 125px;
+   padding: 20px;
+}
+
+.main-row{
+    list-style: none;
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.main-row li a:link,.main-row li a:visited
+{
+    text-decoration: none;
+    color: #fff;
+    margin: 2vw;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    transition: border-bottom 0.2s;
+    padding: 8px 0;
+}
+nav li{
+    white-space: nowrap;
+    }
+.main-row li a:hover,.main-row li a:active
+{
+    border-bottom: 3px solid rgb(179, 126, 27) ;
+}
+.features{
+   
+    margin: 150px 50px;
+}
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+     text-align: center;
+     font-size:2rem;
+     word-spacing: 2px;
+     margin-bottom: 30px;
+
+
+}
+h2::after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color:rgb(179, 126, 27) ;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+.intro{
+    line-height: 145%;
+     width: 75%;
+     margin-left: 15%;
+}
+/* .row2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+} */
+.col{
+    padding: 1%;
+    
+}
+h3{
+    font-weight: 300;
+    text-transform: uppercase;
+     font-size:110%;
+     word-spacing: 2px;
+     margin-bottom: 5%;
+}
+.icon{
+    font-size:300% ;
+    color:rgb(179, 126, 27) ;
+    margin-bottom: 20px;
+}
+.col p{
+    font-size: 90%;
+    line-height: 145%;
+}
+.meals{
+    list-style: none;
+    margin: 0;
+}
+.meals li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.mealphoto{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 10px;
+    
+
+}
+.mealphoto img{
+    width: 100%;
+    height: 40vh;
+    transform: scale(1.15);
+    opacity: 0.7;
+    transition: ease-out 0.2s;
+    
+    border-radius: 10px
+}
+.food{
+    padding: 0;
+}
+
+.mealphoto img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+.clearfix {zoom:1}
+.clearfix::after{
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.row2{
+    display: flex;
+    justify-content: space-around;
+}
+.steps-box{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.step{
+    padding-right: 10%;
+    margin-left: 0;
+    text-align: left;
+}
+.works-steps{
+    margin-bottom: 5%;  
+    display: flex;
+    align-items: center;
+  
+}
+.steps .row:first-of-type{
+    padding-top: 5% ;
+}
+.steps{
+    background-color:#fcfcfc;
+}
+.works-steps div{
+    color: rgb(179, 126, 27);
+    font-weight: 300;
+    border: 4px solid  rgb(179, 126, 27) ;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 8px;
+    margin-right: 20px;
+}
+.phone{
+    width: 350px;
+    padding-left: 10%;
+   
+}
+.col2{
+    align-content: center;
+}
+.works-steps p{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.down-btn{
+    width: 350px;
+    padding-top: 60px;
+}
+.cities .row:first-of-type{
+    padding-top: 5%;
+}
+.cities .row:last-of-type{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.5rem;
+}
+
+.city-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+.city-feature{
+    margin-bottom: 5px;
+}
+.city-icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 120%;
+    vertical-align: middle;
+    color: rgb(179, 126, 27);
+    margin-right: 10px;
+}
+.twitter:link,.twitter:visited{
+    color: rgb(179, 126, 27);
+    text-decoration: none;
+    border-bottom: 1px solid rgb(200, 147, 50);
+    padding-bottom: 1px;
+
+}
+
+.twitter:hover,.twitter:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s,color 0.5s;
+}
+
+.testimonial{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./img/backcust.png);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+    margin-top: 20px;
+
+}
+.testimonial .row{
+    padding-top: 50px; 
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 40px;
+    position: relative;
+
+}
+blockquote p{
+    margin-bottom: 20px;
+}
+cite{
+    font-size: 90%;
+    display: block;  
+    padding-bottom:25%;
+}
+cite img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+
+}
+blockquote::before{
+    content: '\201C';
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -3;
+}
+.section-plans{
+    background-color: #f4f4f4;
+    padding-bottom: 60px;
+}
+
+.col{
+  flex: 1;           
+  display: flex;
+  flex-direction: column;
+  
+}
+.pln-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+   
+    margin-left: 5%;
+}
+.pln-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: rgb(200, 147, 50)
+}
+.pln-box ul{
+    list-style: none;
+    
+}
+
+.pln-box ul li{
+    padding: 5px 0;
+    font-size: 90%;
+    
+}
+.section-plans{
+    padding-top: 50px; 
+}
+form{
+   
+    width: 50%;
+    margin: auto;
+}
+
+form .row{
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   gap: 15px;
+   padding-bottom: 10px;
+  
+    
+}
+input[type=text],
+input[type=email],
+select,
+textarea{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 100%;
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+}
+.footer-nav li a{
+    color: rgb(179, 126, 27);
+}
+footer .row:first-of-type{
+    display: grid;
+    grid-template-columns:50% 50% ;
+  
+}
+
+footer{
+    background-color: #333;
+    font-size: 80%;
+    padding: 50px 0px 50px 0px;
+}
+.footer-nav{
+    list-style: none;
+    justify-self: start;
+
+}
+.social-links{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+}
+.footer-nav li a:hover,
+.footer-nav li a:hover{
+    color: #ddd;
+}
+footer p{
+    color: #888;
+    text-align: center;
+    font-size: 80%;
+    margin-top: 20px;
+}
+.fb:hover{
+    color: #3b5998;
+}
+.google:hover{
+    color: #dd4b39;
+}
+.tw:hover{
+    color: #00aced;
+}
+.insta:hover{
+    color: #517fa4;
+}
+.social-links li a:link,
+.social-links li a:visited{
+    font-size: 160%;
+}
+
+
