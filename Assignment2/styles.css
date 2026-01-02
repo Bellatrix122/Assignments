@@ -8,7 +8,7 @@
   /* * {
     border: 1px solid red; 
   } */
-  opacity: 200%;
+ 
  
 }
 html{
@@ -72,7 +72,7 @@ ul{
 .content{
     display:flex;
     justify-content: space-around;
-    color: #7A9E9F ;
+    color:  #3E6E6F ;
     height: 70vh ;
     align-items: center;
     margin-bottom: 8px;
@@ -96,7 +96,7 @@ ul{
     text-align: justify;
     font-size: 
     1.1rem;
-    color:#8A837A;
+    color:#4A4A4A;
 }
 
 #book{
@@ -129,7 +129,7 @@ ul{
     align-items: center;
     justify-content: space-around;
    height: 100px;
-   color:   #7A9E9F;
+   color:  #3E6E6F;
 }
 .book-service{
     
@@ -164,11 +164,7 @@ table{
 th{
     padding: 0px 8px;
 }
-/* td{
-    width: 100%;
-    color:  #7A9E9F;
-    border-bottom:0.1px solid#b9b9b7 ;
-} */
+
 thead{
     width: 100%;
     background-color: #e9e9e8  ;
@@ -176,7 +172,7 @@ thead{
 .service-select{
     text-align: center;
     width: 100%;
-    color:  #7A9E9F;
+    color:  #3E6E6F;
 }
 .sno{
     width: 10%;
@@ -295,7 +291,7 @@ color: #FAF7F3;
 
 .left{
     background-color: #F0E4D3;
-    color:  #7A9E9F;
+    color:  #3E6E6F;
     padding: 18px;
     border-radius: 20px;
    width: 50%;
@@ -358,7 +354,7 @@ color: #FAF7F3;
 
 }
 .service p{
-    color: #7A9E9F;
+    color: #3E6E6F;
 }
 
 .newsLetter{
@@ -404,7 +400,7 @@ footer{
    
 }
 .foot-content{
-    color: #7A9E9F ;
+    color: #3E6E6F ;
     padding-right: 80px;
 
 }
