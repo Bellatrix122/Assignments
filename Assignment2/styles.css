@@ -8,8 +8,11 @@
   /* * {
     border: 1px solid red; 
   } */
-  
+  opacity: 200%;
  
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
      background-color: #F0E4D3;
